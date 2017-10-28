@@ -2,11 +2,12 @@ var restler = require('restler');
 
 // username has been replaced by selftaught91 
 
-var url = "https://api.github.com/users/selftaught91"
+var url = "https://api.github.com/users/selftaught91";
 
 options = {
 
-    method : "get"
+    method : "get",
+    timeout : 10000
 
 };
 

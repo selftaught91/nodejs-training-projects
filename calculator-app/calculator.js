@@ -4,12 +4,6 @@ module.exports={
         return parseFloat(a)+parseFloat(b);
 
     },
-
-    subtract : function(a,b){
-
-        return parseFloat(a)-parseFloat(b);
-    },
-
     multiply : function(a,b){
 
         return parseFloat(a)*parseFloat(b);
@@ -21,3 +15,7 @@ module.exports={
     }
 
 };
+subtract (a,b){
+
+        return parseFloat(a)-parseFloat(b);
+    },
